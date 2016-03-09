@@ -5,3 +5,5 @@ aplikacja.log()
 aplikacja.pobierzDane()
 aplikacja.walidacjaDanych()
 aplikacja.rozwiaz()
+
+#DODANE DO GITA
