@@ -13,9 +13,9 @@ class InputReader:
         self.first = self.first.split(" ")
         self.second = self.second.split(" ")
         try:
-            if len(self.first) > 2 or len(self.second) > 2:
+            if len(self.first) > 3 or len(self.second) > 3:
                 raise IndexError
-            if len(self.first) < 2 or len(self.second) < 2:
+            if len(self.first) < 3 or len(self.second) < 3:
                 raise Error("Podano za mało elementów")
             a = [float(self.first[0]), float(self.second[0])]
             b = [float(self.first[1]), float(self.second[1])]
